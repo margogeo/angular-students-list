@@ -1,0 +1,44 @@
+$bg: #487d9b;
+$elem: #ffffff;
+
+table {
+  width: 100%;
+}
+
+.groupName {
+  padding-top: 15px;
+  font-size: 30px;
+  height: 60px;
+  text-align: center;
+  color: $bg;
+}
+
+.mat-header-cell, .mat-row .mat-cell {
+  background-color: $bg;
+  color: $elem;
+}
+
+.form-field {
+  width: 100%;
+  background: $bg;
+  padding: 0;
+}
+
+.search-input {
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin: 0;
+  color: $elem;
+}
+
+.search-input::placeholder {
+  color: $elem;
+}
+
+.mat-column-name, .mat-column-username, .mat-column-email, .mat-column-address, .mat-column-phone, .mat-column-website {
+  padding-left: 20px;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
