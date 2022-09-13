@@ -1,2 +1,2 @@
 # angular-students-list
-university group students list with search and sorting implemented via Angular
+University group students list with sorting(click on column heading to sort different ways) and search(searches for letter combinations in every column), implemented via Angular
